@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Install Gnome_151223"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo apt-get install gnome
+sudo apt-get install gnome-panel
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_Gnome_151225"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

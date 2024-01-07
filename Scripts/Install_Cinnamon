@@ -1,0 +1,16 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Install Cinnamont_151223"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-nightly
+sudo apt-get update
+sudo apt-get install cinnamon
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_Cinnamont_151225"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

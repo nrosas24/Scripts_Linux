@@ -1,0 +1,16 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Install_notepadqq_171103"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_notepadqq_171103"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

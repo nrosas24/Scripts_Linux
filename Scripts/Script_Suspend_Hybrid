@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux "
+echo "Update "
+echo "Suspend_Hybrid...."
+date
+echo "Kernel: " 
+uname -r
+sudo ls /root
+echo "******************************************************************"
+sleep 3900
+sudo pm-suspend-hybrid
+echo "******************************************************************"
+date
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

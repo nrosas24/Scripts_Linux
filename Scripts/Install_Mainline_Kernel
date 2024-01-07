@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "******************************************************************"
+echo "Install Mainline Kernel V.230910"
+echo "******************************************************************"
+sudo ls /root
+sleep 1
+sudo add-apt-repository ppa:cappelikan/ppa
+sudo apt update
+sudo apt install mainline
+echo "******************************************************************"
+echo "Install Mainline Kernel V.230910"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+exit

@@ -1,0 +1,23 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Scrip_Date_160825"
+echo "Starting ...."
+date
+echo "Kernel: " 
+uname -r
+echo "******************************************************************"
+sleep 1
+sudo apt-get autoremove 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+cd /home/nrosas/Downloads/Kernel
+sudo dpkg -i linux*.deb
+sudo apt-get autoremove
+sudo apt-get clean
+echo "******************************************************************"
+echo "Scrip_Date_1160825"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

@@ -1,0 +1,21 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Update_Scrip_180624"
+echo "Starting Update...."
+date
+echo "Kernel: " 
+uname -r
+echo "******************************************************************"
+sudo ls /root
+sleep 1
+sudo mv /BackUp_2020/Watchmen/ /media/nrosas/Backup_UGreen_250/Backup_Movies
+echo "******************************************************************"
+./mandarmail.sh "Update Ubuntu " "nrosas@zebra.com" "Update"
+echo "Correo enviado"
+echo "******************************************************************"
+echo "Update_Scrip_180624"
+date
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+exit

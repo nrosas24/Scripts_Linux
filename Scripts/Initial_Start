@@ -1,0 +1,15 @@
+#!/bin/bash
+sudo apt-get clean
+clear
+echo "****************************************************************"
+echo "Like Linux "
+echo "Initial Install...."
+echo "Version: 23091."
+echo "****************************************************************"
+chmod +x Install_Mainline_Kernel
+chmod +x Install_Chrome
+source Install_Mainline_Kernel
+source Install_Chrome
+echo "******************************************************************"
+echo "Completed, Thanks NR !!!"
+echo "****************************************************************"

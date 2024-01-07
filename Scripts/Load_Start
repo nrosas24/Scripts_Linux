@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Load_Start_170610"
+echo "Starting Load..."
+date
+echo "Kernel: " 
+uname -r
+echo "******************************************************************"
+sudo chmod -x Script_Start.sh
+sudo cp Script_Start.sh /etc/init.d/
+sudo update-rc.d Script_Start.sh defaults
+echo "******************************************************************"
+echo "Load_Scrip_170710"
+date
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

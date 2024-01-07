@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Update_Scrip_151225"
+echo "Starting Update...."
+echo "******************************************************************"
+sleep 1
+sudo apt-get autoremove 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+sudo apt-get clean
+echo "******************************************************************"
+echo "Update_Scrip_151225"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

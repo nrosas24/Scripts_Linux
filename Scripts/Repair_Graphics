@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Graphics_Scrip_151223"
+echo "Starting Update...."
+echo "******************************************************************"
+sleep 1
+sudo dpkg --configure -a 
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install --reinstall ubuntu-desktop
+sudo apt-get autoremove
+sudo apt-get clean
+echo
+ "******************************************************************"
+echo "Graphics_Scrip_151223"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

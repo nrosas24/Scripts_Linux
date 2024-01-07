@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Install Swanks170602"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo apt-get install swaks
+sudo sudo apt-get install swaks
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_Swanks170602"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+

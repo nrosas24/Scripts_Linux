@@ -1,0 +1,56 @@
+#!/bin/bash
+sudo apt-get clean
+clear
+echo "****************************************************************"
+echo "Like Linux "
+echo "Version: 23091."
+echo "Installing Programs...."
+echo "****************************************************************"
+sleep 2
+
+echo "***Adding Mainline Kernel*******************************************"
+sudo add-apt-repository ppa:cappelikan/ppa
+sudo apt update
+sudo apt install mainline
+
+
+
+echo "***Update Repository *******************************************"
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' 
+
+
+echo "***Update Repository *******************************************"
+sudo apt-get update
+
+echo "***Installing Repository ***************************************"
+echo "*** Guake ******************************************************"
+sudo apt-get install guake
+echo "*** Gufw Firewall *********************************************"
+sudo apt-get install gufw
+echo "*** VLC ********************************************************"
+sudo apt-get install vlc
+echo "*** Chrome *****************************************************"
+sudo apt-get install google-chrome-stable 
+echo "*** Gedit ***************************************************"
+sudo apt-get install gedit-plugins 
+echo "*** Compiz ***************************************************"
+sudo apt-get install compizconfig-settings-manager
+sudo apt-get install compiz-plugins-extra
+echo "*** Gparted ***************************************************"
+sudo apt-get install gparted
+echo "******************************************************************"
+echo "Like Linux Install Gnome_151223"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo apt-get install gnome
+sudo apt-get install gnome-panel
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_Gnome_170629"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+echo "****************************************************************"
+echo "Completed, Thanks NR !!!"
+echo "****************************************************************"

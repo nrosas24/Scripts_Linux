@@ -1,0 +1,14 @@
+http://kernel.ubuntu.com/~kernel-ppa/mainline/ 
+
+sudo dpkg -i linux*.deb
+
+
+sudo update-grub
+
+
+sudo apt-get purge linux-image-3.12.7-* linux-headers-3.12.7-*
+
+sudo apt-get remove 4.18.0-041800rc2-generic 4.18.0-041800rc2-generic
+ 
+
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo "******************************************************************"
+echo "Like Linux Install KDE_151223"
+echo "Starting Installation...."
+echo "******************************************************************"
+sleep 1
+sudo install kubuntu-desktop
+sudo install install language-pack-kde-es
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get install kubuntu-desktop
+sudo apt-get install language-pack-kde-es
+sudo apt-get clean
+echo "******************************************************************"
+echo "Install_KDE_151225"
+echo "Completed, Thanks NR !!!"
+echo "******************************************************************"
+
